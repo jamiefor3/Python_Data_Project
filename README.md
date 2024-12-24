@@ -35,7 +35,7 @@ plt.show()
 
 ## Results
 
-![Bar plot of top skills for data jobs](3_Project\Images\Skill_Demand_Vis.png)
+![Bar plot of top skills for data jobs](3_Project/Images/Skill_Demand_Vis.png)
 
 
 ## Insights

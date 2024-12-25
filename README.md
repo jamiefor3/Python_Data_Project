@@ -106,7 +106,7 @@ plt.show()
 ![Line plot of top skill trends for data analysts](3_Project/Images/skill_trend_vis.png)
 
 
-### Indights
+### Insights
 ---
 - SQL (47.3% in October, ~42% average): SQL is consistently the most demanded skill across the months. Its dominance highlights the critical importance of database querying and management for data analysts.
 

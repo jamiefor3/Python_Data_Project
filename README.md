@@ -103,7 +103,7 @@ plt.show()
 
 ### Results
 ---
-![Line plot of top skill trends for data analysts](3_Project\Images\skill_trend_vis.png)
+![Line plot of top skill trends for data analysts](3_Project/Images/skill_trend_vis.png)
 
 
 ### Indights

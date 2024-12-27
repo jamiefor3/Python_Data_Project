@@ -122,3 +122,28 @@ Insight:
 The trends highlight that SQL and Excel remain foundational for data analyst roles, emphasizing database management and spreadsheet expertise. Meanwhile, the increasing demand for Power BI and Python suggests a shift toward data visualization and programming skills. Tableau is valuable but plays a more niche role compared to Power BI. Data analysts aiming to remain competitive should focus on mastering SQL, Excel, and Power BI, with growing attention to Python for automation and advanced analytics.
 
 
+## 3. How well do different data job titles pay?
+
+
+intro
+
+View my notebook with walkthrough notes here:
+[4_salary_analysis.ipynb](3_Project\4_salary_analysis.ipynb)
+
+### Visualisation Code
+---
+```python
+sns.violinplot(data=df_uk_top6, x='salary_year_avg', y='job_title_short', density_norm='width', order= job_order)
+plt.title(f'Salary Distribution in the {job_place}')
+plt.xlabel('Yearly Salary')
+plt.ylabel('')
+ax = plt.gca()
+ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, pos: f'£{int((x*0.8)/1000)}K'))
+plt.xlim(0, 300_000)
+plt.show()
+```
+
+### Results
+---
+![Violin plot of salary's for top data roles]()
+

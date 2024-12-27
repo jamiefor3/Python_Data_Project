@@ -145,5 +145,8 @@ plt.show()
 
 ### Results
 ---
-![Violin plot of salary's for top data roles]()
+![Violin plot of salary's for top data roles](3_Project/Images/salary_analysis_violin.png)
 
+### Insights
+---
+#### 

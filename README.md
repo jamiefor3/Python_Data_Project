@@ -122,7 +122,7 @@ Insight:
 The trends highlight that SQL and Excel remain foundational for data analyst roles, emphasizing database management and spreadsheet expertise. Meanwhile, the increasing demand for Power BI and Python suggests a shift toward data visualization and programming skills. Tableau is valuable but plays a more niche role compared to Power BI. Data analysts aiming to remain competitive should focus on mastering SQL, Excel, and Power BI, with growing attention to Python for automation and advanced analytics.
 
 
-## 3. How well do different data job titles pay?
+## 3. How much do different data job titles pay?
 
 
 intro
@@ -149,4 +149,82 @@ plt.show()
 
 ### Insights
 ---
-#### 
+
+blah blah blah
+
+
+## 4. What are the highest paid and most wanted data skills?
+
+
+intro
+is in the same notebook as before
+
+## Visualisation Code
+
+```python
+fig, ax = plt.subplots(2, 1)
+
+sns.set_theme(style='ticks')
+
+sns.barplot(data=df_da_top_pay, x='median', y=df_da_top_pay.index, ax=ax[0], hue='median', palette='dark:b_r', legend=False)
+ax[0].set_title(f'Top 10 highest paying skills for {job_title}s')
+ax[0].set_ylabel('')
+ax[0].set_xlabel('')
+ax[0].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, pos: f'£{int((x*0.8)/1000)}K'))
+ax[0].tick_params(axis='y', labelsize=12)
+
+sns.barplot(data=df_da_skills, x='median', y=df_da_skills.index, ax=ax[1], hue='median', palette='dark:b_r', legend=False)
+
+ax[1].set_title(f'Top 10 Most Wanted skills for {job_title}s')
+ax[1].set_ylabel('')
+ax[1].set_xlabel('Median Yearly Salary')
+ax[1].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, pos: f'£{int((x*0.8)/1000)}K'))
+ax[1].set_xlim(ax[0].get_xlim())
+ax[1].tick_params(axis='y', labelsize=12)
+
+fig.tight_layout()
+plt.show()
+```
+
+### Results
+
+result
+
+
+### Insights
+
+boh boh boh
+
+## 5. What are the most optimal skills to learn for a data analyst in the United Kingdom?
+
+intro
+
+notebook
+
+## Visualisation Code
+
+```python
+sns.scatterplot(data=df_plot, x='skill_perc', y='median_salary', hue='technology')
+sns.set_theme(style='ticks')
+sns.despine()
+plt.title(f'Most Optimal Skills for {job_title}s in the {job_place}')
+plt.xlabel('Percent of Jobs')
+plt.ylabel('Average Yearly Salary')
+plt.tight_layout()
+texts = []
+for i , txt in enumerate(df_da_skills_high_demand.index):
+    texts.append(plt.text(df_da_skills_high_demand['skill_perc'].iloc[i], df_da_skills_high_demand['median_salary'].iloc[i], txt))
+adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=1))
+ax = plt.gca()
+ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda y, pos: f'£{int((y*0.8)/1000)}K'))
+ax.xaxis.set_major_formatter(PercentFormatter(decimals=0))
+plt.show()
+```
+
+## Results
+
+result
+
+## Insights
+
+insights

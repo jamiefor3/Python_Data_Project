@@ -174,7 +174,8 @@ To determine the highest paid and most wanted skills I grouped all the skills by
 View my notebook with walkthrough notes here:
 [4_salary_analysis.ipynb](3_Project\4_salary_analysis.ipynb)
 
-## Visualisation Code
+### Visualisation Code
+---
 
 ```python
 fig, ax = plt.subplots(2, 1)
@@ -202,13 +203,46 @@ plt.show()
 ```
 
 ### Results
+---
 
-result
+![Bar plot of highest paid and most common skills](3_Project/Images/skill_salary_median_count_vis.png)
 
 
 ### Insights
+---
 
-boh boh boh
+#### **Highest Paid**
+
+- Pandas (140K Median Salary): Pandas is the highest-paying skill, underscoring its importance for advanced data manipulation and analysis. Mastery of Pandas is a key driver for higher earnings.
+
+- TensorFlow (140K Median Salary): Expertise in TensorFlow highlights the value of machine learning skills for data analysts, especially in AI-driven industries.
+
+- NumPy (140K Median Salary): NumPy’s high salary association reflects its critical role in numerical computations and data analysis workflows.
+
+- C++ (140K Median Salary): C++ skills are highly valued in specialized roles involving performance optimization and complex computations.
+
+- PyTorch (140K Median Salary): Similar to TensorFlow, PyTorch expertise signals the growing demand for machine learning and deep learning frameworks.
+
+- Aurora, MongoDB, MySQL (132K Median Salary): Database management skills remain lucrative, with Aurora, MongoDB, and MySQL leading among database technologies.
+
+- AWS and Elasticsearch (132K Median Salary): Cloud computing and search engine technologies are in demand, driving competitive salaries for analysts skilled in AWS and Elasticsearch.
+
+#### **Most Wanted**
+
+- Tableau (80K Median Salary): Tableau tops the demand chart, reflecting its widespread use for data visualization. It is a must-have skill for aspiring data analysts.
+
+- SQL and Looker (79K and 77K Median Salary): SQL continues to dominate as the foundational skill for querying databases. Looker’s demand points to the growing emphasis on modern BI tools.
+
+- Python and Power BI (71K Median Salary): Python’s versatility makes it highly sought after, while Power BI remains critical for business intelligence and reporting.
+
+- SAS and Excel (64K and 60K Median Salary ): Despite newer tools, Excel maintains strong demand due to its accessibility, and SAS is valued for statistical analysis in certain industries.
+
+- R and Go (62K and 57K Median Salary ): R is a niche but important tool for statistical computing, while Go’s inclusion reflects the rising intersection of data analytics and software development.
+
+- Outlook (43K Median Salary): Outlook’s presence suggests that even basic office tools are in demand for effective communication and collaboration.
+
+Insight:
+High-paying skills like Pandas, TensorFlow, and NumPy indicate that technical and machine learning expertise significantly boost earning potential. However, the most wanted skills, including Tableau, SQL, and Python, emphasize core competencies for most data analyst roles. Analysts should balance foundational skills with specialized technical expertise to maximize both job opportunities and salary potential.
 
 ## 5. What are the most optimal skills to learn for a data analyst in the United Kingdom?
 

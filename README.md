@@ -125,7 +125,7 @@ The trends highlight that SQL and Excel remain foundational for data analyst rol
 ## 3. How much do different data job titles pay?
 
 
-intro
+To find out how much different data job titles pay, I filtered the data by the top 6 data job positions in the uk and grouped them to show their average yearly salary. The visualisation was originally going to be a box plot graph but Senior Data Analysts and Engineers had a lack of data compared to others so a violin plot was used instead. This code highlights the min, max, median, frequency as well as the quartile ranges for each jobs yearly salary.
 
 View my notebook with walkthrough notes here:
 [4_salary_analysis.ipynb](3_Project\4_salary_analysis.ipynb)
@@ -150,14 +150,29 @@ plt.show()
 ### Insights
 ---
 
-blah blah blah
+
+- Senior Data Scientist (Median: £126K): Senior Data Scientists command the highest earning potential, with salaries typically concentrated between £100K and £150K. The wide spread reflects variability driven by industry, expertise and location.
+
+- Senior Data Engineer (Median: £118K): Similar to Senior Data Scientists, Senior Data Engineers enjoy high salaries, but with a slightly lower peak density. Cloud  expertise and experience in high-demand sectors likely drive higher earnings.
+
+- Data Scientist (Median: 84K): Data Scientists earn competitive salaries, with a notable overlap with Data Engineers. Advanced AI/ML skills may provide a higher earning ceiling, particularly in cutting-edge industries like tech or healthcare.
+
+- Data Engineer (Median: 88K): Data Engineers have comparable salaries to Data Scientists. The overlap indicates that demand for both roles is equally strong in the UK market.
+
+- Data Analyst (Median: 70k): Data Analysts earn the least of the different titles, with most salaries clustering between £40K and £80K. The narrower range indicates less variability, reflecting the role’s foundational nature and lower specialization requirements.
+
+- Senior Data Analyst (Median: 89k): Senior Data Analysts had more job postings, and therefore earned more consistently than other senior roles, though their earning potential is limited compared to Senior Scientists and Engineers. Advanced analytical skills and leadership responsibilities are key to higher salaries.
+
+Insight:
+There is a clear salary progression from Data Analyst to Senior Scientist or Engineer roles, with significant earning jumps at each stage. Variability in senior roles highlights the importance of niche expertise, industry, and location. Aspiring professionals should focus on building technical expertise and leadership skills to maximize their earning potential.
 
 
 ## 4. What are the highest paid and most wanted data skills?
+To determine the highest paid and most wanted skills I grouped all the skills by their jobs average salary and then created two variables to show the show which skills had the highest salary and which skills were most frequently required.
 
 
-intro
-is in the same notebook as before
+View my notebook with walkthrough notes here:
+[4_salary_analysis.ipynb](3_Project\4_salary_analysis.ipynb)
 
 ## Visualisation Code
 

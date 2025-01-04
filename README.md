@@ -246,11 +246,12 @@ High-paying skills like Pandas, TensorFlow, and NumPy indicate that technical an
 
 ## 5. What are the most optimal skills to learn for a data analyst in the United Kingdom?
 
-intro
+My definition of an optimal skill is one that is frequently sought after by employers, and is required in jobs with high average salaries. In order to find the most optimal skills I grouped the job skills together to show their average salary and count in job postings. This count was shown as a percentage out of the total number of jobs in the database. I used an arbitrary number of 6% as the minimum job count percentage to filter out infrequent skills. A for loop was used to find out what type of skill each skill is for better visualisation on the scatter plot.
 
-notebook
+View my notebook with walkthrough notes here:
+[5_optimal_skills.ipynb](3_Project\5_optimal_skills.ipynb)
 
-## Visualisation Code
+### Visualisation Code
 
 ```python
 sns.scatterplot(data=df_plot, x='skill_perc', y='median_salary', hue='technology')
@@ -270,10 +271,10 @@ ax.xaxis.set_major_formatter(PercentFormatter(decimals=0))
 plt.show()
 ```
 
-## Results
+### Results
 
-result
 
-## Insights
+
+### Insights
 
 insights

@@ -252,6 +252,7 @@ View my notebook with walkthrough notes here:
 [5_optimal_skills.ipynb](3_Project\5_optimal_skills.ipynb)
 
 ### Visualisation Code
+---
 
 ```python
 sns.scatterplot(data=df_plot, x='skill_perc', y='median_salary', hue='technology')
@@ -272,9 +273,30 @@ plt.show()
 ```
 
 ### Results
+---
 
-
+![Scatter plot of optimal skills for data analysts](3_Project/Images/optimal_skill_scatter.png)
 
 ### Insights
+---
 
-insights
+- SQL (46% of jobs, £79K average salary): SQL is the most in-demand skill for data analysts in the UK. Its high demand and competitive salary emphasize its importance in database querying and management.
+
+- Excel (40% of jobs, £60K average salary): Excel ranks second in demand, underlining its significance in spreadsheet analysis and data organization. However, it offers a lower salary compared to programming languages.
+
+- Python (35% of jobs, £71K average salary): Python is a versatile skill with high demand and an impressive salary. It is crucial for automation, data manipulation, and advanced analytics.
+
+- Power BI (10% of jobs, £71K average salary): Power BI is a valuable skill for data visualization and business intelligence, providing strong earning potential for professionals skilled in reporting tools.
+
+- Tableau (18% of jobs, £80K average salary): Tableau holds steady demand similar to Power BI, making it an essential tool for data visualization roles, though slightly less prominent.
+
+- SAS and R (<13% of jobs, <£64K average salary): SAS and R are niche skills often used in statistical analysis. While less in demand, it offers a competitive salary for those jobs that require it.
+
+- Azure (8% of jobs, £74K average salary): Cloud expertise, such as Azure, is moderately sought after and reflects the growing integration of cloud technologies in data workflows.
+
+- Looker (8% of jobs, £77K average salary): Looker is a specialized BI tool with competitive pay, suited for roles involving advanced reporting and analytics.
+
+- Outlook and Word (<9% of jobs, <£46K average salary): These general productivity tools are the least demanded and lowest-paying skills, reflecting their basic utility in data roles.
+
+Insight:
+SQL and Python are the most optimal for data analyst roles, offering the highest demand and salaries. Excel remains foundational but is often supplemented with more advanced tools like Power BI and Tableau for visualization. Cloud technologies like Azure and specialized BI platforms like Looker are valuable for niche roles. To stay competitive, focus on mastering SQL, Python, and Excel, while building complementary skills in Tableau and cloud platforms.

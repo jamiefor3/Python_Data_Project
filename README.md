@@ -55,11 +55,10 @@ This code will load the data and then convert the 'job_posted_date' into a date 
  job_place = 'United Kingdom'
 ```
 Often I will use these variables to name the job title and country, this allows for easy changes to be made if I would want to perform the same analysis on any other job title or country.
+# Dataset
 
+The data set used in this analysis contains job posting's of data jobs from all around the world during 2023. The Salaries are originally all in $USD but my visualisations have been converted into £GBP using the current exchange rate as of December 18th 2024 ($1 = £0.8), therefore the salaries may differ slightly based on when you are reading this.
 # The Analysis
-### **Important**
-
-The data set used in this analysis contains job posting's of data jobs from all around the world during 2023. The Salaries were all in $USD and have been converted into £GBP using the current exchange rate as of January 4th 2025 ($1 = £0.8), therefore the salaries may differ slightly based on when you are reading this.
 
 ## 1. What are the most demanded skills for the top 3 most popular data roles?
 To find the most demanded skills for the top 3 most popular

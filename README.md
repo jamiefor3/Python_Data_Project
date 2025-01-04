@@ -1,5 +1,7 @@
 # The Analysis
+### **Important**
 
+The data set used in this analysis contains job posting's of data jobs from all around the world during 2023. The Salaries were all in $USD and have been converted into £GBP using the current exchange rate as of January 4th 2025 ($1 = £0.8), therefore the salaries may differ slightly based on when you are reading this.
 ## 1. What are the most demanded skills for the top 3 most popular data roles?
 To find the most demanded skills for the top 3 most popular
 data roles, I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This code highlights the most popular data job titles and their top skills, showing which skills you should pay attention to depending on the role you're targeting.
@@ -48,7 +50,7 @@ Key Skills:
 
 - Power BI (27%) and Tableau (16%) emphasize the importance of data visualization skills in presenting insights.
 
-- Python (20%) is a usefull skill but is less critical compared to visualization and database tools.
+- Python (20%) is a useful skill but is less critical compared to visualization and database tools.
 
 Insight: Data Analysts are expected to have a mix of foundational database, spreadsheet, and visualization skills, with less emphasis on advanced programming.
 
@@ -77,7 +79,7 @@ Insight: Data Scientists prioritize advanced programming, statistical tools, and
 
 ## 2. How are in-demand skills trending for Data Analysts?
 
-To find out how the most in-demand skills for data analysts are trending, I filtered the data to show on data analyst jobs, found the top 5 skills and then grouped them by the month of which the jobs were posted. This code highlights the trends of how often different skills are asked for in data analyst job postings throughout 2023.
+To find out how the most in-demand skills for data analysts are trending, I filtered the data to show on data analyst jobs, found the top 5 skills and then grouped them by the month of which the jobs were posted. This code highlights the trends of how often different skills are required in data analyst job postings throughout 2023.
 
 View my notebook with walkthrough notes here:
 
@@ -159,7 +161,7 @@ plt.show()
 
 - Data Engineer (Median: 88K): Data Engineers have comparable salaries to Data Scientists. The overlap indicates that demand for both roles is equally strong in the UK market.
 
-- Data Analyst (Median: 70k): Data Analysts earn the least of the different titles, with most salaries clustering between £40K and £80K. The narrower range indicates less variability, reflecting the role’s foundational nature and lower specialization requirements.
+- Data Analyst (Median: 70k): Data Analysts earn the least of the different titles, with most salaries clustering between £40K and £80K. The narrower range indicates less variability, reflecting the roles foundational nature and lower specialization requirements.
 
 - Senior Data Analyst (Median: 89k): Senior Data Analysts had more job postings, and therefore earned more consistently than other senior roles, though their earning potential is limited compared to Senior Scientists and Engineers. Advanced analytical skills and leadership responsibilities are key to higher salaries.
 
@@ -246,7 +248,7 @@ High-paying skills like Pandas, TensorFlow, and NumPy indicate that technical an
 
 ## 5. What are the most optimal skills to learn for a data analyst in the United Kingdom?
 
-My definition of an optimal skill is one that is frequently sought after by employers, and is required in jobs with high average salaries. In order to find the most optimal skills I grouped the job skills together to show their average salary and count in job postings. This count was shown as a percentage out of the total number of jobs in the database. I used an arbitrary number of 6% as the minimum job count percentage to filter out infrequent skills. A for loop was used to find out what type of skill each skill is for better visualisation on the scatter plot.
+My definition of an optimal skill is one that is frequently sought after by employers, and is required in jobs with high average salaries. In order to find the most optimal skills I grouped the job skills together to show their average salary and count in job postings. This count was expressed as a percentage out of the total number of jobs in the database. I used an arbitrary number of 6% as the minimum job count percentage to filter out infrequent skills. A for loop was used to find out what type of skill each skill is for better visualisation on the scatter plot.
 
 View my notebook with walkthrough notes here:
 [5_optimal_skills.ipynb](3_Project\5_optimal_skills.ipynb)

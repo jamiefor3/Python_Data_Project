@@ -66,7 +66,7 @@ data roles, I filtered out those positions by which ones were the most popular, 
 
 View my notebook with walkthrough notes here:
 
-[2_skills_counting.ipynb](3_Project/2_skills_counting.ipynb)
+[2_skills_counting.ipynb](Project/2_skills_counting.ipynb)
 
 
 ### Visualisation Code
@@ -96,7 +96,7 @@ plt.show()
 
 ### Results
 ---
-![Bar plot of top skills for data jobs](3_Project/Images/Skill_Demand_Vis.png)
+![Bar plot of top skills for data jobs](Project/Images/Skill_Demand_Vis.png)
 
 
 ### Insights
@@ -141,7 +141,7 @@ To find out how the most in-demand skills for data analysts are trending, I filt
 
 View my notebook with walkthrough notes here:
 
-[3_skill_trends.ipynb](3_Project/3_skill_trends.ipynb)
+[3_skill_trends.ipynb](Project/3_skill_trends.ipynb)
 
 
 ### Visualisation code
@@ -163,7 +163,7 @@ plt.show()
 
 ### Results
 ---
-![Line plot of top skill trends for data analysts](3_Project/Images/skill_trend_vis.png)
+![Line plot of top skill trends for data analysts](Project/Images/skill_trend_vis.png)
 
 
 ### Insights
@@ -188,7 +188,7 @@ The trends highlight that SQL and Excel remain foundational for data analyst rol
 To find out how much different data job titles pay, I filtered the data by the top 6 data job positions in the uk and grouped them to show their average yearly salary. The visualisation was originally going to be a box plot graph but Senior Data Analysts and Engineers had a lack of data compared to others so a violin plot was used instead. This code highlights the min, max, median, frequency as well as the quartile ranges for each jobs yearly salary.
 
 View my notebook with walkthrough notes here:
-[4_salary_analysis.ipynb](3_Project/4_salary_analysis.ipynb)
+[4_salary_analysis.ipynb](Project/4_salary_analysis.ipynb)
 
 ### Visualisation Code
 ---
@@ -205,7 +205,7 @@ plt.show()
 
 ### Results
 ---
-![Violin plot of salary's for top data roles](3_Project/Images/salary_analysis_violin.png)
+![Violin plot of salary's for top data roles](Project/Images/salary_analysis_violin.png)
 
 ### Insights
 ---
@@ -232,7 +232,7 @@ To determine the highest paid and most wanted skills I grouped all the skills by
 
 
 View my notebook with walkthrough notes here:
-[4_salary_analysis.ipynb](3_Project/4_salary_analysis.ipynb)
+[4_salary_analysis.ipynb](Project/4_salary_analysis.ipynb)
 
 ### Visualisation Code
 ---
@@ -265,7 +265,7 @@ plt.show()
 ### Results
 ---
 
-![Bar plot of highest paid and most common skills](3_Project/Images/skill_salary_median_count_vis.png)
+![Bar plot of highest paid and most common skills](Project/Images/skill_salary_median_count_vis.png)
 
 
 ### Insights
@@ -309,7 +309,7 @@ High-paying skills like Pandas, TensorFlow, and NumPy indicate that technical an
 My definition of an optimal skill is one that is frequently sought after by employers, and is required in jobs with high average salaries. In order to find the most optimal skills I grouped the job skills together to show their average salary and count in job postings. This count was expressed as a percentage out of the total number of jobs in the database. I used an arbitrary number of 6% as the minimum job count percentage to filter out infrequent skills. A for loop was used to find out what type of skill each skill is for better visualisation on the scatter plot.
 
 View my notebook with walkthrough notes here:
-[5_optimal_skills.ipynb](3_Project/5_optimal_skills.ipynb)
+[5_optimal_skills.ipynb](Project/5_optimal_skills.ipynb)
 
 ### Visualisation Code
 ---
@@ -335,7 +335,7 @@ plt.show()
 ### Results
 ---
 
-![Scatter plot of optimal skills for data analysts](3_Project/Images/optimal_skill_scatter.png)
+![Scatter plot of optimal skills for data analysts](Project/Images/optimal_skill_scatter.png)
 
 ### Insights
 ---
